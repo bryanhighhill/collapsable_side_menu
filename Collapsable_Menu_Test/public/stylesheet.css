@@ -5,42 +5,50 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-	border: 2px solid rgba(0, 0, 0, .4);
+	height: 100vh;
 }
 
+/* default/initial settings for the left-side menu */
 .column-left {
- 	width: 30%;
-  	height: 100%;
+ 	width: 20%;
   	background-color: beige;
-  	transition: 1s ease;
-  	position: relative;
+  	transition: .3s ease;
 }
 
-.hide-column {
-	display:none;	
-}
-
+/* default/initial settings for the main content */
 .column-right {
-	width: 70%;
-  	height: 100%;
-  	background-color: #ccc;
-  	transition: 1s ease;
+	width: 80%;
+  	background-color: white;
+  	transition: .3s ease;
 }
 
+/* collapse toggle button settings */
 .collapse-menu {
 	float: right;
-	padding-right: 1.5em;
 	font-size: 25px;
-	color: #545252;
-	/* transform: translateX(-50%); */
+	color: #807f7e;
+	margin-right: 5px;
+	margin-top: 10px;
 }
 
+/* change cursor and color on hover */
 .collapse-menu:hover {
 	color: black;
 	cursor: pointer;
 }
 
+/* settings for collapsed left-side menu */
 .collapse-sidebar {
-	width: 10%;
+	width: 5%;
 	background-color: white;
+}
+
+/* settings for enlarged main content */
+.enlarge-body {
+	width: 95%;
+}
+
+/* padding for sample tasks */
+.task-text {
+	padding-left: 3em;
 }
