@@ -9,12 +9,11 @@
 }
 
 .column-left {
-  /* display: flex; */
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  background-color: tan;
-  padding-left: 3em;
+ 	width: 30%;
+  	height: 100%;
+  	background-color: beige;
+  	transition: 1s ease;
+  	position: relative;
 }
 
 .hide-column {
@@ -22,12 +21,10 @@
 }
 
 .column-right {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 4;
-  background-color: beige;
-  padding-left: 3em;
+	width: 70%;
+  	height: 100%;
+  	background-color: #ccc;
+  	transition: 1s ease;
 }
 
 .collapse-menu {
@@ -35,9 +32,15 @@
 	padding-right: 1.5em;
 	font-size: 25px;
 	color: #545252;
+	/* transform: translateX(-50%); */
 }
 
 .collapse-menu:hover {
 	color: black;
 	cursor: pointer;
+}
+
+.collapse-sidebar {
+	width: 10%;
+	background-color: white;
 }
