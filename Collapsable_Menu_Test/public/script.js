@@ -1,8 +1,7 @@
 /**
- * 
+ * function for toggling a side bar menu between collapsed and open
  */
  
-let menuCollapsed = "false";
 
 function handleButtonClick() {
 	const leftColumn = document.querySelector(".column-left");
